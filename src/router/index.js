@@ -6,17 +6,17 @@ Vue.use(VueRouter)
   
   const routes = [
   {
-    path: '/',
+    path: '/vuejs-google-sheets-manager-crud',
     name: 'Home',
     component: Home
   },
   {
-    path: '/edit/:id',
+    path: '/vuejs-google-sheets-manager-crud/edit/:id',
     name: 'edit',
     component: () => import(/* webpackChunkName: "add" */ '../views/Edit.vue')
   },
   {
-    path: '/add',
+    path: '/vuejs-google-sheets-manager-crud/add',
     name: 'Add',
     component: () => import(/* webpackChunkName: "add" */ '../views/Add.vue')
   }
