@@ -5,7 +5,7 @@
 
 		<b-button type="is-warning is-light">
 			<i class="fa fa-arrow-left" aria-hidden="true"></i>
-			<router-link to="/" class="btn btn-sm mr-1 btn-outline-secondary">
+			<router-link to="/vuejs-google-sheets-manager-crud" class="btn btn-sm mr-1 btn-outline-secondary">
 				Back
 			</router-link>
 		</b-button>

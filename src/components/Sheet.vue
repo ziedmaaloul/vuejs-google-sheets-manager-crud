@@ -37,7 +37,7 @@
 								<td data-label="Last Name" class=""><span>{{row.lastname}}</span></td>
 								<td data-label="E-mail"><span>{{row.email}}</span></td>
 								<td data-label="Gender" class=""><span>{{row.gender}}</span></td>
-								<td><router-link :to="'/edit/' + index" class="button is-light"><i class="fa fa-pencil" aria-hidden="true"></i> <span class="margin-left">Edit</span></router-link></td>
+								<td><router-link :to="'/vuejs-google-sheets-manager-crud/edit/' + index" class="button is-light"><i class="fa fa-pencil" aria-hidden="true"></i> <span class="margin-left">Edit</span></router-link></td>
 								<td><b-button type="is-danger" v-on:click="deleteRow(index)"><i class="fa fa-trash" aria-hidden="true"></i> <span class="margin-left">Delete</span></b-button></td>
 							</tr>
 						</tbody>
